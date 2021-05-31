@@ -43,10 +43,3 @@
         window.alie = alieLibrary();
     }
 })(window); // We send the window variable withing our function
-
-
-// Now see the content of your library
-console.log(alie);
-
-// It should ouput only 3 properties (setMute, setVolume, haveSound)
-// And the settings variable can be only be accessed in your library, not outside
