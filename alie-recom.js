@@ -1,7 +1,4 @@
 (function (window) {
-    // You can enable the strict mode uncommenting the following line  
-    //'use strict';
-
     // This function will contain all our code
     function alieLibrary() {
         var _alieLibraryObject = {};
@@ -42,4 +39,4 @@
     if (typeof (window.alie) === 'undefined') {
         window.alie = alieLibrary();
     }
-})(window); // We send the window variable withing our function
+})(window);
