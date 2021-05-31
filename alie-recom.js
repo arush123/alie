@@ -1,6 +1,6 @@
 (function (window) {
     // You can enable the strict mode uncommenting the following line  
-    'use strict';
+    //'use strict';
 
     // This function will contain all our code
     function alieLibrary() {
